@@ -13,6 +13,10 @@ body {
     color: #3a3a3a;
 }
 
+.bodycenter{
+    margin: 2rem;
+}
+
 /* headings and logo */
 h1, h2 {
     font-family: Kalam, sans-serif;
@@ -243,6 +247,10 @@ footer {
     clear: both;
     height: 150px;
     width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 }
 
 #address {
@@ -251,6 +259,7 @@ footer {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
+    padding-top: 10rem;
 }
 
 .social-networks {
@@ -584,4 +593,6 @@ footer {
         margin: 0 auto;
         width: 95%;
     }
+
+
 }
